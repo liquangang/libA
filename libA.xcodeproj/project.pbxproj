@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		070F9F451E9B3C39003010AC /* libA.h in Headers */ = {isa = PBXBuildFile; fileRef = 070F9F431E9B3C39003010AC /* libA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		070F9F621E9B431E003010AC /* LibATestObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 070F9F601E9B431E003010AC /* LibATestObj.h */; };
+		070F9F631E9B431E003010AC /* LibATestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F9F611E9B431E003010AC /* LibATestObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		070F9F401E9B3C39003010AC /* libA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		070F9F431E9B3C39003010AC /* libA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libA.h; sourceTree = "<group>"; };
 		070F9F441E9B3C39003010AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070F9F601E9B431E003010AC /* LibATestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibATestObj.h; sourceTree = "<group>"; };
+		070F9F611E9B431E003010AC /* LibATestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibATestObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				070F9F431E9B3C39003010AC /* libA.h */,
 				070F9F441E9B3C39003010AC /* Info.plist */,
+				070F9F601E9B431E003010AC /* LibATestObj.h */,
+				070F9F611E9B431E003010AC /* LibATestObj.m */,
 			);
 			path = libA;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070F9F621E9B431E003010AC /* LibATestObj.h in Headers */,
 				070F9F451E9B3C39003010AC /* libA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070F9F631E9B431E003010AC /* LibATestObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				070F9F4A1E9B3C39003010AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
